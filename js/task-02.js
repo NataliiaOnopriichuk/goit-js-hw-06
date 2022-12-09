@@ -9,7 +9,6 @@ const ingredients = [
 
 
 const listEl = document.querySelector('#ingredients');
-console.log(listEl);
 
 const elements = ingredients.map(elem => {
   const itemEl = document.createElement('li');

@@ -22,4 +22,3 @@ return `<li class="list__item"><img class="item__img" src="${url}" alt="${alt}">
 
 listEl.insertAdjacentHTML("beforeend", addImageOfItem(images))
 
-console.log(addImageOfItem(images));
